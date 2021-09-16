@@ -17,4 +17,7 @@ pub fn run() {
         expert = "Blockchain Developer",
         lang = "with Rust"
     );
+
+    // Placeholders traits
+    println!("Binary: {:b} Hex: {:x} Octal: {:o}",10,10,10);
 }
