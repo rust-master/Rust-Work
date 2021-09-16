@@ -20,4 +20,7 @@ pub fn run() {
 
     // Placeholders traits
     println!("Binary: {:b} Hex: {:x} Octal: {:o}",10,10,10);
+
+    // Placeholders debug trait
+    println!("{:?}", (41,true,"Zaryab"));
 }
