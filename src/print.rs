@@ -9,4 +9,12 @@ pub fn run() {
         "{0} is Expert {1} and {0} is Expert {2} {3}",
         "Zaryab", "Blockchain Developer", "with", "Rust"
     );
+
+    // Named Arguments
+    println!(
+        "{name} is Expert {expert} and {name} is Expert {expert} {lang}",
+        name = "Zaryab",
+        expert = "Blockchain Developer",
+        lang = "with Rust"
+    );
 }
