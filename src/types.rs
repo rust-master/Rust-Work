@@ -1,7 +1,6 @@
 pub fn run() {
+    let x = 5;
 
-    let x= 5;
-    
     let y = 2.5;
 
     let z: i64 = 12331321312;
@@ -10,4 +9,7 @@ pub fn run() {
     println!("Max i32: {}", std::i32::MAX);
     println!("Max i64: {}", std::i64::MAX);
 
+    let is_active: bool = true;
+
+    println!("{:?}", (x, y, z, is_active));
 }
