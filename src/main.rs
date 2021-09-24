@@ -8,7 +8,8 @@
 // mod conditional;
 // mod loops;
 // mod functions;
-mod pointer_ref;
+// mod pointer_ref;
+mod structs;
 
 fn main() {
     // print::run();
@@ -21,5 +22,6 @@ fn main() {
     // conditional::run();
     // loops::run();
     // functions::run();
-    pointer_ref::run();
+    // pointer_ref::run();
+    structs::run();
 }
