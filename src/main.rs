@@ -9,7 +9,8 @@
 // mod loops;
 // mod functions;
 // mod pointer_ref;
-mod structs;
+// mod structs;
+mod search;
 
 fn main() {
     // print::run();
@@ -23,5 +24,6 @@ fn main() {
     // loops::run();
     // functions::run();
     // pointer_ref::run();
-    structs::run();
+    // structs::run();
+    search::run();
 }

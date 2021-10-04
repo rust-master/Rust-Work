@@ -1,8 +1,7 @@
 pub fn run(){
 
     // do binary search
-    let mut v = vec![1,2,3,4,5,6,7,8,9,10];
-    let mut index = 0;
+    let  v = vec![1,2,3,4,5,6,7,8,9,10];
     let mut found = false;
     let mut low = 0;
     let mut high = v.len() - 1;
